@@ -5,13 +5,13 @@ Simple static web server.
 
 ### Install
 ```
-npm install static-server -g
+npm install static-html-server -g
 ```
 
 ### Usage
 
 ```
-static-server -p [port] -r [root folder] -f [fallback path if not found]
+static-html-server -p [port] -r [root folder] -f [fallback path if not found]
 ```
 
 Arguments (all are optional):
@@ -22,7 +22,7 @@ Arguments (all are optional):
 
 For example
 ```
-lserver -p 8899 -r ./ -f index.html
+static-html-server -p 8899 -r ./ -f index.html
 Server running at http://localhost:8899/ [root: ./, fallback: index.html]
 ```
 # License
