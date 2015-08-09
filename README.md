@@ -1,5 +1,4 @@
 # node-static-server
-============
 
 Simple static web server.
 
