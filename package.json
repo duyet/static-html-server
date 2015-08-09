@@ -1,0 +1,29 @@
+{
+  "name": "node-static-server",
+  "version": "0.1.0",
+  "description": "Static web server",
+  "homepage": "https://github.com/duyetdev/node-static-server",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:duyetdev/node-static-server.git"
+  },
+  "bin": {
+    "static-server": "./static-server.js"
+  },
+  "keywords": [
+    "server",
+    "local",
+    "static",
+    "web",
+    "duyetdev"
+  ],
+  "dependencies": {
+    "mime": "~1.2.11",
+    "minimist": "^0.2.0"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Van-Duyet Le",
+    "email": "lvduit08@gmail.com"
+  }
+}
