@@ -1,14 +1,14 @@
 {
-  "name": "node-static-server",
+  "name": "static-html-server",
   "version": "0.1.0",
   "description": "Static web server",
-  "homepage": "https://github.com/duyetdev/node-static-server",
+  "homepage": "https://github.com/duyetdev/static-html-server",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/duyetdev/node-static-server.git"
+    "url": "git+ssh://git@github.com/duyetdev/static-html-server.git"
   },
   "bin": {
-    "static-server": "./static-server.js"
+    "static-html-server": "./static-html-server.js"
   },
   "keywords": [
     "server",
@@ -24,9 +24,9 @@
   "license": "MIT",
   "author": "Van-Duyet Le <lvduit08@gmail.com>",
   "bugs": {
-    "url": "https://github.com/duyetdev/node-static-server/issues"
+    "url": "https://github.com/duyetdev/static-html-server/issues"
   },
-  "main": "static-server.js",
+  "main": "static-html-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
