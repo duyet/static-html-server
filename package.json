@@ -5,7 +5,7 @@
   "homepage": "https://github.com/duyetdev/node-static-server",
   "repository": {
     "type": "git",
-    "url": "git@github.com:duyetdev/node-static-server.git"
+    "url": "git+ssh://git@github.com/duyetdev/node-static-server.git"
   },
   "bin": {
     "static-server": "./static-server.js"
@@ -22,8 +22,12 @@
     "minimist": "^0.2.0"
   },
   "license": "MIT",
-  "author": {
-    "name": "Van-Duyet Le",
-    "email": "lvduit08@gmail.com"
+  "author": "Van-Duyet Le <lvduit08@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/duyetdev/node-static-server/issues"
+  },
+  "main": "static-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
