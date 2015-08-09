@@ -7,7 +7,7 @@ var http = require('http')
   , mnm  = require('minimist')
 
 var argv = mnm(process.argv.slice(2))
-  , port = argv.p || 8000
+  , port = argv.p || 7788
   , root = argv.r || process.cwd()
   , fallbackPath = argv.f
 
