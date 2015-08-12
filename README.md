@@ -1,4 +1,4 @@
-# node-static-server
+# Static HTML Server
 
 Simple static web server.
 
