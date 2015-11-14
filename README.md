@@ -1,5 +1,7 @@
 # Static HTML Server
 
+[![NPM](https://nodei.co/npm/static-html-server.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/static-html-server/)
+
 Simple static web server.
 
 ### Install
