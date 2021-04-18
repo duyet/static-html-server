@@ -8,11 +8,10 @@ Simple static web server.
 ```
 npm install static-html-server -g
 ```
-
 ### Usage
 
 ```
-static-html-server -p [port] -r [root folder] -f [fallback path if not found]
+static-html-server -p [port] -r [root folder] -f [fallback path if not found] [whitelist files...]
 ```
 
 Arguments (all are optional):
@@ -20,6 +19,7 @@ Arguments (all are optional):
 * `p`: [`Number`] port number, default to 8000
 * `r`: [`String`] root folder, default to working directory
 * `f`: [`String`] fallback path when page not found, default to not falling back and send 404
+* [`whitelist_files`] List of files to be whitelisted, other files will not be accessed by the server, default to all files (built to prevent path traversal)
 
 For example
 ```
