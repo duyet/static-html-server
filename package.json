@@ -18,7 +18,7 @@
     "duyetdev"
   ],
   "dependencies": {
-    "mime": "~2.5.0",
+    "mime": "~4.0.0",
     "minimist": "^1.2.5"
   },
   "license": "MIT",
